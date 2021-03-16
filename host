@@ -1,0 +1,8 @@
+[web1:vars]
+    http_port=2222
+    ansible_connection=ssh
+    ansible_user=ubuntu
+    ansible_ssh_pass=root
+
+[web1]
+    127.0.0.1

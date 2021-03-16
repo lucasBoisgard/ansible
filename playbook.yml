@@ -1,0 +1,8 @@
+---
+- hosts: web1
+  tasks: 
+    - name: create file test 
+      file: 
+        path: ~/test
+        state: touch 
+... 
